@@ -6,13 +6,13 @@ Feature: Training feature
   @training_0
   Scenario: Test angular features button
     Given I navigate to angular website
-    And I click the LEARN MORE button
-    Then the text ANGULAR FEATURES is displayed
+    And I click the LEARN ANGULAR button
+    Then the text ANGULAR TUTORIAL is displayed
 
   @training_01
   Scenario: Test angular features button 1
     Given I navigate to angular website
-    And I click the LEARN MORE button
+    And I click the LEARN ANGULAR button
     Then the text ANGULAR FEATURES is displayed
     And the section ANY APP SIZE is displayed
     And the section A GREAT COMMUNITY is displayed
@@ -21,7 +21,7 @@ Feature: Training feature
   @training_02
   Scenario: Test angular features button 2
     Given I navigate to angular website
-    And I click the LEARN MORE button
+    And I click the LEARN ANGULAR button
     Then the text ANGULAR FEATURES is displayed
     And the section texts are displayed
       | sectionText        |
@@ -44,7 +44,7 @@ Feature: Training feature
 
     Examples:
       | tabButton | title                            |
-      | Learn More| Angular Features                 |
+      | LEARN ANGULAR| Angular Features                 |
       | Docs      | Introduction to the Angular Docs |
 
   @training_3
