@@ -7,16 +7,16 @@ Feature: Training feature
   Scenario: Test angular features button
     Given I navigate to angular website
     And I click the LEARN ANGULAR button
-    Then the text ANGULAR TUTORIAL is displayed
+    Then the text WELCOME TO THE ANGULAR TUTORIAL is displayed
 
   @training_01
   Scenario: Test angular features button 1
     Given I navigate to angular website
     And I click the LEARN ANGULAR button
-    Then the text ANGULAR FEATURES is displayed
-    And the section ANY APP SIZE is displayed
-    And the section A GREAT COMMUNITY is displayed
-    And the section BUILD PRODUCTIVELY is displayed
+    Then the text WELCOME TO THE ANGULAR TUTORIAL is displayed
+    And the section PREVIEW is displayed
+    And the section HOW TO USE THIS TUTORIAL is displayed
+  
 
   @training_02
   Scenario: Test angular features button 2
@@ -50,7 +50,7 @@ Feature: Training feature
   @training_3
   Scenario: Test angular features button
     Given I navigate to angular website
-    And I search for text "Nothing"
+    And I search for text Nothing
     Then No result found
 
   @training_4
